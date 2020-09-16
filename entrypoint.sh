@@ -5,6 +5,8 @@ set -o pipefail
 ORIGINAL_FILE="$GITHUB_WORKSPACE/$1"
 MIRROR_FILE="$GITHUB_WORKSPACE/$2"
 
+echo "Check the content of $ORIGINAL_FILE and $MIRROR_FILE."
+
 if [ -f "$ORIGINAL_FILE" ]; then
   echo "INFO: $ORIGINAL_FILE exists."
 else 
