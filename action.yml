@@ -1,5 +1,8 @@
 name: 'Mirror Action'
 description: 'Checks if the content of 2 files are the same'
+branding:
+  icon: check-square
+  color: green
 inputs:
   original:
     description: 'The filename of the original file'
