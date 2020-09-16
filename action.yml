@@ -1,0 +1,15 @@
+name: 'Mirror Action'
+description: 'Checks if the content of 2 files are the same'
+inputs:
+  original:
+    description: 'The filename of the original file'
+    required: true
+  mirror:
+    description: 'The filename of the mirror file'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.original }}
+    - ${{ inputs.mirror }}
