@@ -7,14 +7,16 @@ MIRROR_FILE="$GITHUB_WORKSPACE/$2"
 
 echo "Check the content of $ORIGINAL_FILE and $MIRROR_FILE."
 
-if [ -f "$ORIGINAL_FILE" ]; then
+if [ -f "$ORIGINAL_FILE" ]
+then
   echo "INFO: $ORIGINAL_FILE exists."
 else 
   echo "ERROR: $ORIGINAL_FILE does not exist. Abort."
   exit 1
 fi
 
-if [ -f "$MIRROR_FILE" ]; then
+if [ -f "$MIRROR_FILE" ]
+then
   echo "INFO: $MIRROR_FILE exists."
 else 
   echo "ERROR: $MIRROR_FILE does not exist. Abort."
