@@ -1,0 +1,12 @@
+name: Unit Test
+on: [push]
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - name: install pytest
+        run: pip install pytest
+      - name: run unit tests
+        run: python -m pytest
