@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: tianhaoz95/mirror-action@v1
+      - uses: tianhaoz95/mirror-action@v1.0.1
         with:
           original: 'README.md'
           mirror: 'docs/README.md'
@@ -29,7 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://tianhaoz.com"><img src="https://avatars3.githubusercontent.com/u/16887772?v=4" width="100px;" alt=""/><br /><sub><b>Tianhao Zhou</b></sub></a><br /><a href="https://github.com/tianhaoz95/mirror-action/commits?author=tianhaoz95" title="Code">💻</a></td>
-    <td align="center"><a href="http://hangyuan.xyz"><img src="https://avatars0.githubusercontent.com/u/7655454?v=4" width="100px;" alt=""/><br /><sub><b>angerhang</b></sub></a><br /><a href="https://github.com/tianhaoz95/mirror-action/issues?q=author%3Aangerhang" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://hangyuan.xyz"><img src="https://avatars0.githubusercontent.com/u/7655454?v=4" width="100px;" alt=""/><br /><sub><b>angerhang</b></sub></a><br /><a href="https://github.com/tianhaoz95/mirror-action/issues?q=author%3Aangerhang" title="Bug reports">🐛</a> <a href="https://github.com/tianhaoz95/mirror-action/commits?author=angerhang" title="Documentation">📖</a></td>
   </tr>
 </table>
 
