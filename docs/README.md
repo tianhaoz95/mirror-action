@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: tianhaoz95/mirror-action@v1
+      - uses: tianhaoz95/mirror-action@v1.0.1
         with:
           original: 'README.md'
           mirror: 'docs/README.md'
